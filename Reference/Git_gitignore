@@ -1,0 +1,41 @@
+.gitignore 为空时
+
+本目录的所有文件
+
+本目录的所有非空文件夹
+
+
+
+.gitignore 为 \* 时
+
+本目录均无
+
+
+
+.gitignore 为 /* 时
+
+本目录均无
+
+
+
+根据 albertignore 参考
+
+ ```bash
+ # Ignore eclipse dir
+ /workspace
+ 
+ # Ignore git projects
+ /git/*
+ 
+ # Include albert repos though
+ !/git/albert
+ !/git/aur-albert
+ 
+ # However in the albert repo dont index source files
+ /git/albert/**.cpp
+ 
+ # General ignores
+ node_modules
+ bower_components
+ ```
+

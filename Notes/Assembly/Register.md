@@ -1,0 +1,49 @@
+## 8086/8088 寄存器
+
+- 共14个16位寄存器
+  - 通用寄存器 8
+    - 数据寄存器
+      - AX
+        - 累加器
+      - BX
+        - 基址寄存器
+      - CX
+        - 计数寄存器
+      - DX
+        - 数据寄存器
+    - 地址寄存器
+      - SP
+        - 堆栈寄存器
+      - BP
+        - 基址指针寄存器
+    - 变址寄存器
+      - SI
+        - 源变址寄存器
+      - DI
+        - 目标变址寄存器
+  - 段寄存器 4
+    - - 
+    - 
+  - 控制寄存器 2
+    - IP
+      - 指令指针寄存器
+  - 状态标志位 6
+    - CF
+      - Carry
+    - PF
+      - Parity
+    - AF
+      - Auxiliary Carry
+    - ZF
+      - Zero
+    - SF
+      - Sign
+    - OF
+      - Overflow
+  - 控制标志位 3
+    - TF
+      - Trap
+    - IF
+      - Interrupt Enable
+    - DF
+      - Direction
