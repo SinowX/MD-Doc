@@ -244,7 +244,7 @@
 多文件搜索
 -----
 
-*   <code>:vim[grep] /pattern/ {`{file}`}</code> - 在多个文件中搜索 <kbd>pattern</kbd>
+*   <code>:vim[grep] /pattern/ {\`{ file }\`}</code> - 在多个文件中搜索 <kbd>pattern</kbd>
 
 e.g. `:vim[grep] /foo/ \*\*/\*`
 
